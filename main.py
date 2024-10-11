@@ -42,7 +42,7 @@ class VideoFilterPipeline:
 
 if __name__ == '__main__':
     # Initialize the video filter pipeline (0 for webcam, or path to video file)
-    pipeline = VideoFilterPipeline(video_source=0)
+    pipeline = VideoFilterPipeline("C:\\Users\\aboin\Downloads\\file_example_MP4_480_1_5MG.mp4")
 
     # Add filters to the pipeline
     pipeline.add_filter(BlackAndWhiteFilter())  # Black and white filter
